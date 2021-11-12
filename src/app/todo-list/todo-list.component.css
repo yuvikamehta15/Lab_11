@@ -1,0 +1,28 @@
+h1{
+    font-weight: bold;
+    color: rgb(11, 1, 12);
+    text-shadow: 0px 1px 2px rgba(black, 0.12);
+    text-align: center;
+    font-size: 35px;
+    font-family: 'Cormorant';
+    
+}
+table {
+    border-collapse: collapse;
+    margin: 0 auto;
+    font-size: 0.9em;
+    font-family: sans-serif;
+    max-width: 300px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+tr {
+    background-color: #009879;
+    color: #ffffff;
+    text-align: left;
+}
+td {
+    padding: 12px 15px;
+}
+tr {
+    border-bottom: 1px solid #dddddd;
+}
