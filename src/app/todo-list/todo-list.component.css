@@ -7,7 +7,7 @@ h1{
     font-family: 'Cormorant';
     
 }
-table {
+ul {
     border-collapse: collapse;
     margin: 0 auto;
     font-size: 0.9em;
@@ -15,14 +15,14 @@ table {
     max-width: 300px;
     box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
 }
-tr {
+ul {
     background-color: #009879;
     color: #ffffff;
     text-align: left;
 }
-td {
-    padding: 12px 15px;
+ li{
+    padding: 10px;
 }
-tr {
+ul {
     border-bottom: 1px solid #dddddd;
 }

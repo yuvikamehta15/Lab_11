@@ -9,10 +9,7 @@ import { TodoService } from '../todo.service';
 export class TodoDetailsComponent implements OnInit {
   public todo:any= []  
   constructor(private todoInfo:TodoService) {
-
    }
-
-
   ngOnInit(): void {
     this.todo = this.todoInfo.getTodo()
   }

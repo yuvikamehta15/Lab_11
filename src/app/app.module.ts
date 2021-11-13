@@ -7,17 +7,21 @@ import { TodoListComponent } from './todo-list/todo-list.component';
 import { TodoDetailsComponent } from './todo-details/todo-details.component';
 import { TodoHeaderComponent } from './todo-header/todo-header.component';
 import { TodoService } from './todo.service';
+import { HttpClientModule } from '@angular/common/http';
+import { SpaceXComponent } from './space-x/space-x.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     TodoListComponent,
     TodoDetailsComponent,
-    TodoHeaderComponent
+    TodoHeaderComponent,
+    SpaceXComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [TodoService],
   bootstrap: [AppComponent]

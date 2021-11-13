@@ -1,16 +1,9 @@
 <h1>Todo List</h1> 
-<table>
-    <tr>
-        <th>S.no</th>
-        <th>Label</th>
-        <th>Done</th>
-        
-    </tr>
-    <tr *ngFor="let todo of todo">
-        <td>{{todo.id}}</td>
-      <td>{{todo.label}}</td>
-      <td>{{todo.done ? '&#10003;' : '&#10005;'}}</td>     
+<ul>
+  
     
-    </tr>
-  </table>
+        <li *ngFor="let todo of todo">{{todo.id}}</li>
+      <li *ngFor="let todo of todo" >{{todo.label}}</li>
+     
+    </ul>
  

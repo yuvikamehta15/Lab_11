@@ -1,0 +1,41 @@
+.main
+{
+  display: flex;
+  justify-content: center;
+}
+table,th,td{
+    border: 1px solid rgb(0, 0, 0);
+    border-collapse: collapse;
+  }
+  
+  table{
+    display: block;
+    overflow-x: auto;
+    height: 100;
+    table-layout: fixed;
+    width: 100%;
+    text-align: left;
+  }
+  
+  
+  th{
+    text-align: center;
+    background-color: rgb(149, 204, 149);
+    color: white;
+    font-weight: lighter;
+    height: 60px;
+  }
+  
+  td{
+    padding: 10px 10px 10px 10px;
+    width: auto;
+  }
+  
+  .temp{
+    width: 350px;
+  }
+  
+  tr:hover{
+    background-color: rgb(149, 204, 149);
+    color: white;
+  }
